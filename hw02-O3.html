@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>CNIT 133 HW 02 -- Expressions, Operators</title>
+
+		<link rel="stylesheet" href="style.css">
+
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+		<script language="JavaScript" type="text/javascript">
+
+			var dollars = parseInt(prompt("Please enter a dollar amount", "Enter dollar amount here"));
+
+		</script>
+
+	</head>
+
+	<body class="container">
+		<header>
+			<h1 style="text-align: center;">CNIT 133 HW 02 -- Expressions, Operators</h1>
+		</header>
+
+		<section>
+
+			<script language="JavaScript" type="text/javascript">
+
+				var eur = Math.round(dollars * 0.68418);
+				var cad = Math.round(dollars * 1.02777);
+				var cny = Math.round(dollars * 7.25230);
+				var hkd = Math.round(dollars * 7.80862);
+				var inr = Math.round(dollars * 39.310);
+				var jpy = Math.round(dollars * 106.906);
+				var mxn = Math.round(dollars * 10.92376);
+
+				function convert(dollars) {
+					var eur;
+					return eur;
+				}
+
+				function convert(dollars) {
+					var cad;
+					return cad;
+				}
+
+				function convert(dollars) {
+					var cny;
+					return cny;
+				}
+
+				function convert(dollars) {
+					var hkd;
+					return hkd;
+				}
+
+				function convert(dollars) {
+					var inr;
+					return inr;
+				}
+
+				function convert(dollars) {
+					var jpy;
+					return jpy;
+				}
+
+				function convert(dollars) {
+					var mxn;
+					return mxn;
+				}
+
+				document.write("US Dollar (USD): " + dollars + "<br />");
+				document.write("Euro (EUR): " + eur + "<br />");
+				document.write("Canadian Dollar (CAD): " + cad + "<br />");
+				document.write("Chinese Yuan (CNY): " + cny + "<br />");
+				document.write("Hong Kong Dollar (HKD): " + hkd + "<br />");
+				document.write("Indian Rupee (INR): " + inr + "<br />");
+				document.write("Japanese Yen (JPY): " + jpy + "<br />");
+				document.write("Mexican Peso (MXN): " + mxn + "<br />");
+
+			</script>
+
+		</section>
+
+		<footer>
+			<p>&copy; Copyright 2014 CCSF CNIT133 Interactive Web Pages - JavaScript and AJAX</p>
+		</footer>
+	</body>
+
+</html>

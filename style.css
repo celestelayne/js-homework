@@ -1,0 +1,60 @@
+.container {
+	background-color: #F2F1EF;
+}
+
+header {
+	font-family: 'PT Sans', sans-serif;
+}
+
+table {
+	margin: 0 auto;
+}
+
+h1 {
+	color: #34495E;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+section {
+	font-family:  'Vollkorn';
+	text-align: center;
+}
+
+#colorbox {
+	width: 60%;
+	height: 150px;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 30px;
+}
+
+tbody {
+	background-color: #BFBFBF;
+}
+
+tr > th {
+	height: 30px;
+	background-color: #34495E;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 20x;
+}
+
+.homework_01 {
+	font-family: 'Vollkorn', serif;
+}
+
+
+footer {
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>CNIT 133 HW 03 - Control Statements</title>
+
+		<link rel="stylesheet" href="style.css">
+
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+	</head>
+
+	<body class="container">
+		<header>
+			<h1 style="text-align: center;">CNIT 133 HW 03 -- Control Statements</h1>
+			<h3>Problem 1</h3>
+		</header>
+
+		<section>
+
+			<script language="JavaScript" type="text/javascript">
+
+			var rows = parseInt(prompt ("How many rows do you want?", "Enter number of rows here"));
+			var cols = parseInt(prompt ("How many columns do you want?", "Enter number of columns here"));
+			var i, j;
+
+			document.write("<table border = 2>");
+
+			for (i = 0; i < rows; i++) {
+				document.write("<tr>");
+			for (j = 0; j < cols; j++) {
+				document.write("<td>&nbsp;</td>");
+			}
+				document.write("</tr>");
+			}
+
+			</script>
+
+		</section>
+
+		<footer>
+			<p>&copy; Copyright 2014 CCSF CNIT133 Interactive Web Pages - JavaScript and AJAX</p>
+		</footer>
+	</body>
+
+</html>

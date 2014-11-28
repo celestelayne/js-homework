@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>CNIT 133 HW 01 - Custom Greeting</title>
+
+		<link rel="stylesheet" href="style.css">
+
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+	</head>
+
+	<body class="container">
+		<header>
+			<h1 style="text-align: center;">CNIT 133 HW 02 -- Expressions &amp; Operators</h1>
+		</header>
+
+		<section>
+
+			<script language="JavaScript" type="text/javascript">
+
+				var numberOne = parseInt(prompt ("Please enter one number", "Enter first number here"));
+				var numberTwo = parseFloat(prompt("Enter another number", "Enter second number here"))
+
+				if (isNaN(numberOne)){
+					numberOne = 0;
+				}
+
+				if (isNaN(numberTwo)){
+					numberTwo = 0;
+				}
+
+				alert("You entered: " + numberOne + " and " + numberTwo);
+				alert("The sum is: " + (numberOne + numberTwo));
+
+			</script>
+
+		</section>
+
+		<footer>
+			<p>&copy; Copyright 2014 CCSF CNIT133 Interactive Web Pages - JavaScript and AJAX</p>
+		</footer>
+	</body>
+
+</html>

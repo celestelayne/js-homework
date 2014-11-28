@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>CNIT 133 HW 02 - Expressions Operators</title>
+
+		<link rel="stylesheet" href="style.css">
+
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+	</head>
+
+	<body class="container">
+		<header>
+			<h1 style="text-align: center;">CNIT 133 HW 02 -- Expressions &amp; Operators</h1>
+			<h3>Problem 4</h3>
+		</header>
+
+		<section>
+
+			<script language="JavaScript" type="text/javascript">
+
+				var numberOne = parseInt(prompt ("Please enter one number", "Enter first number here"));
+				var numberTwo = parseFloat(prompt("Enter another number", "Enter second number here"));
+				var numberThree = parseInt(prompt ("Please enter one number", "Enter third number here"));
+
+				if (isNaN(numberOne)){
+					numberOne = 0;
+				}
+
+				if (isNaN(numberTwo)){
+					numberTwo = 0;
+				}
+
+				if (isNaN(numberThree)) {
+					numberThree = 0;
+				}
+
+				function calcAvg(numberOne, numberTwo, numberThree) {
+					var average = ([numberOne + numberTwo + numberThree]/3);
+					return average;
+				}
+
+				document.write("The average of the three numbers you entered is: " + calcAvg(numberOne, numberTwo, numberThree) + "<br />");
+
+			</script>
+
+		</section>
+
+		<footer>
+			<p>&copy; Copyright 2014 CCSF CNIT133 Interactive Web Pages - JavaScript and AJAX</p>
+		</footer>
+	</body>
+
+</html>

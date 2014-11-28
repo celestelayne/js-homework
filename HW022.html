@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>CNIT 133 HW 02 - Expressions &amp; Operators</title>
+
+		<link rel="stylesheet" href="style.css">
+
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+
+	</head>
+
+	<body class="container">
+		<header>
+			<h1 style="text-align: center;">CNIT 133 HW 02 -- Expressions &amp; Operators</h1>
+		</header>
+
+		<section>
+			<script language="JavaScript" type="text/javascript">
+			var numberOne = parseInt(prompt ("Please enter one number", "Enter first number here"));
+			var numberTwo = parseFloat(prompt("Enter another number", "Enter second number here"))
+
+				if (isNaN(numberOne)){
+					numberOne = 0;
+				}
+
+				if (isNaN(numberTwo)){
+					numberTwo = 0;
+				}
+
+			document.write("You entered: " + numberOne + " and " + numberTwo + "<br />");
+
+			function calcSum(numberOne, numberTwo) {
+				var sum = numberOne + numberTwo;
+				return sum;
+			}
+
+			document.write("The sum is: " + calcSum(numberOne, numberTwo) + "<br />");
+
+			function calcDiff(numberOne, numberTwo) {
+				var diff = numberOne - numberTwo;
+				return diff;
+			}
+
+			document.write("The difference is: " + calcDiff(numberOne, numberTwo) + "<br />");
+
+			function calcProd(numberOne, numberTwo) {
+				var prod = numberOne * numberTwo;
+				return prod;
+			}
+
+			document.write("The product is: " + calcProd(numberOne, numberTwo) + "<br />");
+
+			function calcQuot(numberOne, numberTwo) {
+				var quot = numberOne / numberTwo;
+				return quot;
+			}
+
+			document.write("The quotient is: " + calcQuot(numberOne, numberTwo) + "<br />");
+
+			function calcMod(numberOne, numberTwo) {
+				var mod = numberOne % numberTwo;
+				return mod;
+			}
+
+			document.write("The modulus is: " + calcMod(numberOne, numberTwo) + "<br />");
+
+			</script>
+		</section>
+
+		<footer>
+			<p>&copy; Copyright 2014 CCSF CNIT133 Interactive Web Pages - JavaScript and AJAX</p>
+		</footer>
+	</body>
+
+</html>
